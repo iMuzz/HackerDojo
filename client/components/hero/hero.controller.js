@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('emiratesProjectApp')
-  .controller('NavbarCtrl', function ($scope, $location) {
+  .controller('HeroCtrl', function ($scope, $location) {
     $scope.menu = [{
       'title': 'Home',
       'link': '/'

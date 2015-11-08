@@ -1,5 +1,10 @@
-div(ng-controller='HeroCtrl')
-	form(action="" class="trip-filter")
-		input(type="number")
-		input(type="text")
-		button#find(trigger-trip-view) Find Trip
+div.backstretch-wrapper(backstretch backstretch-images="'https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?dpr=2&fit=crop&fm=jpg&h=575&ixlib=rb-0.3.5&q=50&w=1450'")
+
+div.juice
+    .juice-text 
+        h1 An adventure fit for you
+    .juice-form
+        form(action="")
+            input(type="number" placeholder="Your Budget")
+            input(type="text" placeholder="Dates")
+            button#find.button.button--branded(trigger-trip-view) Find Trip

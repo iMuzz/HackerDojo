@@ -2,6 +2,7 @@
 //- 	p Some information about the Trip
 div#myModal Test
 	span.icon-close(ng-click="close()")
-	div {{ chosenTrip.location }}
-	div {{ chosenTrip.totalPrice }}
-	div {{ chosenTrip.description }}
+	div.col-md-7
+		flight-details
+	div.col-md-5
+		lodge-details

@@ -1,23 +1,21 @@
+.flex-left {
+    flex: 5;
+    height: 100%;
+}
+.flex-right {
+    flex: 3;
+    height: 100%;
+}
+
 .golden-flex {
 	display: flex;
 	height: 90%;
-    .flex-left {
-        flex: 5;
-        height: 100%;
-    }
-    .flex-right {
-        flex: 3;
-        height: 100%;
-    }
 }
 
 .result-bar {
 	height: 10%;
 	background-color: lightgray;
-	
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	button {
 		width: 100px;
 	}

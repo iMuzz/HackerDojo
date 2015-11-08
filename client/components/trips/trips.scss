@@ -1,3 +1,7 @@
+main.trips-wrap {
+	position: relative;
+}
+
 #trips {
     height: (100vh - $hero-shrink-val);
     display: flex;

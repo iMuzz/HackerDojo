@@ -30,7 +30,9 @@ header.hero-wrap {
 		.juice-text {
 			h1 {
 				color: #fff;
-				font-size: 3em;
+				text-transform: uppercase;
+				font-size: 38px;
+				font-weight: 400;
 				transition: 0.4s all ease-in;
 			}
 		}
@@ -42,6 +44,17 @@ header.hero-wrap {
 				margin: auto;
 				display: flex;
 				border-bottom: 2px solid rgba(0,0,0,0.3);
+				i {
+					background: #eee;
+					padding: 0 10px;
+					display: flex;
+					border-radius: 2px 0 0 2px;
+					&:before {
+						justify-content: center;
+					    align-items: center;
+					    display: flex;
+					}
+				}
 				input {
 					padding: 10px 30px 10px 15px;
 				    background-color: #fff;

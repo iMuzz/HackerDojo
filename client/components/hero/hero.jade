@@ -2,9 +2,10 @@ div.backstretch-wrapper(backstretch backstretch-images="'https://images.unsplash
 
 div.juice
     .juice-text 
-        h1 An adventure fit for you
+        h1 Adventure within your budget
     .juice-form
         form(action="")
-            input(type="number" placeholder="Your Budget")
+            i.icon-wallet
+            input(type="number" placeholder="Your Budget" aria-describedby="basic-addon1")
             input(type="text" placeholder="Dates")
             button#find.button.button--branded(trigger-trip-view) Find Trip

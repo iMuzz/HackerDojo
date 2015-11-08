@@ -5,7 +5,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",
@@ -22,7 +22,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Bahamas",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",
@@ -39,7 +39,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",
@@ -56,7 +56,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",
@@ -73,7 +73,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",
@@ -90,7 +90,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",
@@ -107,7 +107,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",
@@ -124,7 +124,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodge: {
 				imageUrl: "",
 				description: "",

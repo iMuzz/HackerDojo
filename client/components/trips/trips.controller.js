@@ -16,6 +16,7 @@ angular.module('emiratesProjectApp')
     }];
 
     $scope.isCollapsed = true;
+    $scope.headerText = "Select your flight";
 
     $scope.isActive = function(route) {
       return route === $location.path();
@@ -42,12 +43,14 @@ angular.module('emiratesProjectApp')
     $scope.nextView = function(){
       if ($scope.view1) {
         $scope.toggleView();
+        $scope.headerText = "Select your flight";
       };
     };
 
     $scope.previousView = function(){
       if ($scope.view2) {
         $scope.toggleView();
+        $scope.headerText = "Select your stay";
       };
     };
 

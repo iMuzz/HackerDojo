@@ -11,7 +11,7 @@ angular.module('emiratesProjectApp').directive('flightSelector', function(){
 
 			scope.viewFlight = function(roundtripFlight){
 				console.log("viewFlight called: ", roundtripFlight);
-				scope.selectedRoundtripFlight = roundtripFlight;
+				//scope.selectedRoundtripFlight = roundtripFlight;
 			};
 
 			var clear = scope.$watchCollection('roundtripFlights', function(newVals, oldVals){

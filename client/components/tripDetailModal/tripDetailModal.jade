@@ -1,19 +1,21 @@
 div#myModal
-	.golden-flex
-		.flex-left
-			map-view
-		.flex-right
-			span.icon-close(ng-click="close()")
-			lodge-selector(ng-show="view2" lodges="chosenTrip.lodges")
-			flight-selector(ng-show="view1" roundtrip-flights="chosenTrip.roundtripFlights")
-			.button-nav-bar
-				button.button(ng-click="previousView()") Back	
-				button.button(ng-click="nextView()") Next
-	.result-bar
-		.flex-left
-			div.total-price Some stuff here
-				span.flight $1200
-				span.plus +
-				span.housing $600
-				span.equals =
-				span.total $1800
+    .golden-flex
+        .flex-left
+            map-view
+        .flex-right
+            .heading-nav-bar
+                span.heading-title {{headerText}}
+                span.icon-close(ng-click="close()")
+            lodge-selector(ng-show="view2" lodges="chosenTrip.lodges")
+            flight-selector(ng-show="view1" roundtrip-flights="chosenTrip.roundtripFlights")
+            .button-nav-bar
+                button.button(ng-click="previousView()") Back   
+                button.button(ng-click="nextView()") Next
+    .result-bar
+        .flex-left
+            div.total-price Some stuff here
+                span.flight $1200
+                span.plus +
+                span.housing $600
+                span.equals =
+                span.total $1800

@@ -2,8 +2,8 @@ div.ng-flight-details
     .flight-row
         .flight-logo(style="background-image: url(./assets/images/emirates-logo.png)")
         .flight-outbound
-            .time {{ roundtripFlight.outboundFlight.startTime }} - {{ roundtripFlight.outboundFlight.endTime }}
-            .location {{ roundtripFlight.outboundFlight.startLocation }}
+            .time {{ roundtripFlight.outboundFlight.startTime }} - {{ roundtripFlight.inboundFlight.endTime }}
+            .location {{ roundtripFlight.outboundFlight.abbr }} - {{ roundtripFlight.inboundFlight.startLocation }}
         .flight-inbound
         .flight-duration
         .flight-price ${{ roundtripFlight.outboundFlight.price }}

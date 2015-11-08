@@ -19,8 +19,10 @@ lodge-selector {
 				display: flex;
 				align-items: center;
 				justify-content: space-around;
-				&.active {
+				&:first-child {
 					border-top: 0;
+				}
+				&.active {
 					background-color: #F4F7F9;
 				}
 				.host {

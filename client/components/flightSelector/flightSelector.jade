@@ -1,10 +1,4 @@
 div.flightSelection
-    ul(ng-repeat="roundtripFlight in roundtripFlights" ng-click="viewFlight(roundtripFlight)")
-        li.round-trip-flight-item
-            flight-details(roundtrip-flight="selectedRoundtripFlight")
-        li.round-trip-flight-item
-            flight-details(roundtrip-flight="selectedRoundtripFlight")
-        li.round-trip-flight-item
-            flight-details(roundtrip-flight="selectedRoundtripFlight")
-        li.round-trip-flight-item
+    ul
+        li(ng-repeat="roundtripFlight in roundtripFlights" ng-click="viewFlight(roundtripFlight)")
             flight-details(roundtrip-flight="selectedRoundtripFlight")

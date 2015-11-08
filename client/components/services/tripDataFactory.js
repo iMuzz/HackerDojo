@@ -48,12 +48,24 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 					num_guests: 2
 				},
 			],
-			flight: {
-				departureDate: new Date(),
-				arrivalDate: new Date(),
-				returnDepartureDate: new Date().setDate(new Date().getDate() + 7),
-				returnArrivalDate: new Date().setDate(new Date().getDate() + 7)
-			}
+			roundtripFlights: [
+				{
+					outboundFlight:  {
+						price: 800,
+						startTime: "",
+						startLocation: "" ,
+						destination: "",
+						endTime: ""
+					},
+					inboundFlight: {
+						price: 800,
+						startTime: "",
+						startLocation: "" ,
+						destination: "",
+						endTime: ""
+					} 
+				}
+			]
 		},
 		{
 			location: "Maldives",
@@ -192,3 +204,24 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 
 	return trips;
 });
+
+
+
+var roundTripFlights = [
+	{
+		outboundFlight:  {
+			price: 800,
+			startTime: "",
+			startLocation: "" ,
+			destination: "",
+			endTime: ""
+		},
+		inboundFlight: {
+			price: 800,
+			startTime: "",
+			startLocation: "" ,
+			destination: "",
+			endTime: ""
+		} 
+	}
+]

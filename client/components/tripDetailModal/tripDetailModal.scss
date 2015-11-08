@@ -1,0 +1,22 @@
+$modalPlatformColor: black;
+
+#myModalPlatform {
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+
+	/*Temporary*/
+	width: 100vw;
+	height: 100vh;
+	background-color: $modalPlatformColor;
+	opacity: .5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.modalContent {
+		height: 400px;
+		width: 600px;
+		background-color: red;
+	}
+}

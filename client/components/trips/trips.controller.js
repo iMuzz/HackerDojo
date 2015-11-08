@@ -1,7 +1,10 @@
 'use strict';
 
 angular.module('emiratesProjectApp')
-  .controller('TripsCtrl', function ($scope, $location) {
+  .controller('TripsCtrl', function ($scope, $location, tripDataFactory) {
+
+    $scope.trips = tripDataFactory;
+    
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
@@ -12,4 +15,8 @@ angular.module('emiratesProjectApp')
     $scope.isActive = function(route) {
       return route === $location.path();
     };
+
+    $scope.showDetails = function(){
+      
+    }
   });

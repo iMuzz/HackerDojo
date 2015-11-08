@@ -1,0 +1,25 @@
+#trips {
+	transition: 0.4s transform ease-in-out;
+	transform: translateY(50vh);
+}
+
+#tripsCtrl {
+
+	.trip-card {
+		background-color: #aaa;
+		border-radius: 3px;
+		border: 1px solid #D8D8D8;
+		overflow: hidden;
+		cursor: pointer;
+		margin-bottom: 34px;
+		transition: border-color 0.2s linear;
+		height: 141px;
+		.trip-cover {
+			height: 100%;
+			background-size: cover;
+			background-position: center;
+			position: relative;
+			opacity: 0.8;
+		}
+	}
+}

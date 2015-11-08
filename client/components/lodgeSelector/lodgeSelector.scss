@@ -19,7 +19,7 @@ lodge-selector {
 				display: flex;
 				align-items: center;
 				justify-content: space-around;
-				&:first-child {
+				&.active {
 					border-top: 0;
 					background-color: #F4F7F9;
 				}

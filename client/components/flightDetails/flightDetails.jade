@@ -1,2 +1,14 @@
-div.flight-details
-    p Some shit about the flight
+div.ng-flight-details
+    div This should be a single roundtrip
+    div.outbound
+        div {{ roundtripFlight.outboundFlight.price }}
+        div {{ roundtripFlight.outboundFlight.startTime }}
+        div {{ roundtripFlight.outboundFlight.startLocation }}
+        div {{ roundtripFlight.outboundFlight.destination }}
+        div {{ roundtripFlight.outboundFlight.endTime }}
+    div.inbound
+        div {{ roundtripFlight.inboundFlight.price }}
+        div {{ roundtripFlight.inboundFlight.startTime }}
+        div {{ roundtripFlight.inboundFlight.startLocation }}
+        div {{ roundtripFlight.inboundFlight.destination }}
+        div {{ roundtripFlight.inboundFlight.endTime }}

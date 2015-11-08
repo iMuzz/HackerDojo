@@ -52,15 +52,15 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 				{
 					outboundFlight:  {
 						price: 800,
-						startTime: "",
-						startLocation: "" ,
+						startTime: "December 17, 2015 03:24:00",
+						startLocation: "San Francisco, CA",
 						destination: "",
 						endTime: ""
 					},
 					inboundFlight: {
 						price: 800,
-						startTime: "",
-						startLocation: "" ,
+						startTime: "December 17, 2015 03:24:00",
+						startLocation: "San Francisco, CA" ,
 						destination: "",
 						endTime: ""
 					} 

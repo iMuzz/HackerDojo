@@ -13,6 +13,15 @@ angular.module('emiratesProjectApp').directive('flightSelector', function(){
 				console.log("viewFlight called: ", roundtripFlight);
 				scope.selectedRoundtripFlight = roundtripFlight;
 			};
+
+			var clear = scope.$watchCollection('roundtripFlights', function(newVals, oldVals){
+				console.log("roundtripFlights watch started!");
+				if (newVals) {
+					scope.selectedRoundtripFlight = newVals[0];
+					clear();
+				};
+			});
+
 		}
 	}
 });

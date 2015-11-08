@@ -1,10 +1,16 @@
+@keyframes FadeIn { 
+  0% { opacity:0; -webkit-transform:scale(.5);}
+  85% {opacity:1; -webkit-transform:scale(1.05);}
+  100% {-webkit-transform:scale(1); }
+}
+
 header.hero-wrap {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	transition: 0.4s all ease-in-out;
+	transition: 0.4s all ease;
 	overflow: hidden;
 	position: relative;
 	background-color: #140F12;
@@ -33,7 +39,10 @@ header.hero-wrap {
 				text-transform: uppercase;
 				font-size: 38px;
 				font-weight: 400;
-				transition: 0.4s all ease-in;
+				transition: 0.3s all ease-in;
+				-webkit-animation: FadeIn .4s linear; 
+				-webkit-animation-delay: .4s; 
+				-webkit-animation-fill-mode:both; 
 			}
 		}
 		.juice-form {
@@ -63,7 +72,7 @@ header.hero-wrap {
 				    outline: 0;
 				    font-size: 14px;
 				    transition: 0.4s all ease-in;
-				    &:first-child {
+				    &.first {
 				    	border-right: 1px solid #ddd;
 				    	border-radius: 3px 0 0 3px;
 				    }

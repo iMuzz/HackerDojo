@@ -1,3 +1,9 @@
+@keyframes FadeIn { 
+  0% { opacity:0; -webkit-transform:scale(.1);}
+  85% {opacity:1; -webkit-transform:scale(1.05);}
+  100% {-webkit-transform:scale(1); }
+}
+
 main.trips-wrap {
 	position: relative;
 }
@@ -25,4 +31,20 @@ main.trips-wrap {
 			opacity: 0.8;
 		}
 	}
+}
+
+.open {
+	#trips .ng-scope .trip-card { 
+		-webkit-animation: FadeIn .4s linear; 
+		-webkit-animation-delay: .4s; 
+		-webkit-animation-fill-mode:both; 
+	}
+	#trips .ng-scope:nth-child(1) .trip-card{ -webkit-animation-delay: .1s }
+	#trips .ng-scope:nth-child(2) .trip-card{ -webkit-animation-delay: .15s }
+	#trips .ng-scope:nth-child(3) .trip-card{ -webkit-animation-delay: .2s }
+	#trips .ng-scope:nth-child(4) .trip-card{ -webkit-animation-delay: .25s }
+	#trips .ng-scope:nth-child(5) .trip-card{ -webkit-animation-delay: .3s }
+	#trips .ng-scope:nth-child(6) .trip-card{ -webkit-animation-delay: .35s }
+	#trips .ng-scope:nth-child(7) .trip-card{ -webkit-animation-delay: .4s }
+	#trips .ng-scope:nth-child(8) .trip-card{ -webkit-animation-delay: .45s }
 }

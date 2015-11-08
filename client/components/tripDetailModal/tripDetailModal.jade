@@ -1,9 +1,8 @@
 //- div.modalContent
 //- 	p Some information about the Trip
-div#myModal Test
+div#myModal.clearfix
 	span.icon-close(ng-click="close()")
 	div.col-md-7
 		flight-details
-	div.col-md-5
-		div {{  chosenTrip.location }}
+	div.lodge-details-right.col-md-5
 		lodge-selector(lodges="chosenTrip.lodges")

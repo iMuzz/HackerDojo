@@ -16,11 +16,12 @@
 }
 
 div#myModal {
-
+	height: 100%;
 	.icon-close {
 		position: absolute;
 		right: 5px;
 		top: 5px;
+		z-index: 1;
 		&:hover {
 			cursor: pointer;
 		}

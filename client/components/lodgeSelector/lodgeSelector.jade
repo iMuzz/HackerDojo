@@ -1,3 +1,3 @@
 div.lodgeSelection
 	ul Lodges
-		li.lodge-item(ng-repeat="lodge in lodges") {{ lodge.title }}
+		li.lodge-item(ng-repeat="lodge in lodges" ng-click="viewLodge(lodge)") {{ lodge.title }}

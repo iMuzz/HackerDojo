@@ -4,6 +4,9 @@ angular.module('emiratesProjectApp').directive('lodgeDetails', function(){
 		scope: {
 			lodge: "="		
 		},
-		templateUrl: "components/lodgeDetails/lodgeDetails.html"
+		templateUrl: "components/lodgeDetails/lodgeDetails.html",
+		link: function(scope, el, attrs){
+			// scope.$watch('lode')
+		}
 	}
 });

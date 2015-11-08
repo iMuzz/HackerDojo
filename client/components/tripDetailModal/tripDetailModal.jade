@@ -4,4 +4,8 @@ div#myModal
 			map-view
 		.flex-right
 			span.icon-close(ng-click="close()")
-			lodge-selector(lodges="chosenTrip.lodges")
+			lodge-selector(ng-show="view2" lodges="chosenTrip.lodges")
+			flight-details(ng-show="view1" flights = "chosenTrip.roundtripFlight")
+	.result-bar
+		button(ng-click="previousView()") Back
+		button(ng-click="nextView()") Next

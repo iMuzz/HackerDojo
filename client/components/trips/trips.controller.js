@@ -7,6 +7,9 @@ angular.module('emiratesProjectApp')
     $scope.chosenTrip = {};
     $scope.detailsIsShown = { val: false};
 
+    $scope.view1 = true;
+    $scope.view2 = false;
+
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
@@ -22,10 +25,30 @@ angular.module('emiratesProjectApp')
       console.log("Trip chosen: ", trip);
       $scope.detailsIsShown.val = true;
       $scope.chosenTrip = trip;
-    }
+    };
 
     $scope.close = function(){
         $scope.detailsIsShown.val = false;
         console.log("This should be closed!");
-    }
+    };
+
+    // Show the next in the buy process
+    $scope.toggleView = function(){
+      console.log("Next view");
+      $scope.view1 = !$scope.view1;
+      $scope.view2 = !$scope.view2;
+    };
+
+    $scope.nextView = function(){
+      if ($scope.view1) {
+        $scope.toggleView();
+      };
+    };
+
+    $scope.previousView = function(){
+      if ($scope.view2) {
+        $scope.toggleView();
+      };
+    };
+
   });

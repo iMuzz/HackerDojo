@@ -5,7 +5,7 @@ div#myModal
 		.flex-right
 			span.icon-close(ng-click="close()")
 			lodge-selector(ng-show="view2" lodges="chosenTrip.lodges")
-			flight-details(ng-show="view1" flights = "chosenTrip.roundtripFlight")
+			flight-selector(ng-show="view1" roundtrip-flights="chosenTrip.roundtripFlights")
 	.result-bar
 		.flex-left
 			div.total-price Some stuff here

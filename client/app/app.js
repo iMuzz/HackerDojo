@@ -6,6 +6,7 @@ angular.module('emiratesProjectApp', [
   'ngSanitize',
   'ngRoute',
   'ng-backstretch',
+  'ngMap',
   'daterangepicker'
 ])
   .config(function ($routeProvider, $locationProvider) {

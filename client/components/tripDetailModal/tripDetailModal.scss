@@ -1,3 +1,16 @@
+.golden-flex {
+	display: flex;
+	height: 100%;
+    .flex-left {
+        flex: 5;
+        height: 100%;
+    }
+    .flex-right {
+        flex: 3;
+        height: 100%;
+    }
+}
+
 .trip-detail-modal {
 	position: absolute;
 	top: 0;
@@ -16,6 +29,7 @@
 }
 
 div#myModal {
+    height: 100%;
 
 	.icon-close {
 		position: absolute;
@@ -26,4 +40,10 @@ div#myModal {
 		}
 	}
 
+}
+
+flight-details {
+	height: 100%;
+	display: block;
+	map {height: 100%;}
 }

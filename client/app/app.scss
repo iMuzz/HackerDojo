@@ -22,23 +22,21 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 body {
 	font-family: "Gotham Rounded A", "Gotham Rounded B";
 	overflow: hidden;
-	height: 100%;
+	height: 100%; 
 }
 
 @keyframes blur { 
-  0% { -webkit-filter: blur(0)}
-  100% {-webkit-transform:scale(7px); }
+  0% { -webkit-filter: blur(0) }
+  100% { -webkit-filter: blur(7px) }
 }
 
 .open {
 	header.hero-wrap {
 		height: $hero-shrink-val;
 		.backstretch-wrapper .backstretch img {
-			-webkit-filter: blur(9px);
-			-webkit-animation: blur .4s linear; 
-			-webkit-animation-delay: .1s; 
-			-webkit-animation-fill-mode:both; 
-			opacity: 0.38 !important;
+			-webkit-animation: blur .2s linear;
+			-webkit-animation-delay: .2s; 
+			-webkit-animation-fill-mode:both;
 		}
 		.juice .juice-text h1 {
 		    margin-bottom: 0px;

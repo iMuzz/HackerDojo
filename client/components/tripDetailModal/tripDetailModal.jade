@@ -1,8 +1,9 @@
 //- div.modalContent
 //- 	p Some information about the Trip
-div#myModal Test
-	span.icon-close(ng-click="close()")
-	div.col-md-7
-		flight-details
-	div.col-md-5
-		lodge-details
+div#myModal
+	.golden-flex
+		.flex-left
+			flight-details
+		.flex-right
+			span.icon-close(ng-click="close()")
+			lodge-details

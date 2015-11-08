@@ -1,1 +1,5 @@
-div(ng-controller='HeroCtrl')
+div(class="hero-wrap" ng-controller='HeroCtrl')
+	form(action="" class="trip-filter")
+		input(type="number")
+		input(type="text")
+		button#find(trigger-trip-view) Find Trip

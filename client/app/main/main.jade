@@ -1,2 +1,6 @@
-header.hero-wrap(ng-include='"components/hero/hero.html"')
-main.trips-wrap(ng-include='"components/trips/trips.html"')
+//- Hero Component
+header.hero-wrap(ng-include='"components/hero/hero.html"' ng-controller='HeroCtrl')
+
+//- Topics Component
+main.trips-wrap(ng-include='"components/trips/trips.html"' ng-controller='TripsCtrl')
+

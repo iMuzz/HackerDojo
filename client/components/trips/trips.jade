@@ -1,7 +1,7 @@
-div#tripsCtrl(ng-controller='TripsCtrl')
-    trip-detail-modal(ng-show="detailsIsShown.val" info="chosenTrip" boolean="detailsIsShown" class="modal-wrap clearfix")
+div#trips
     .container
         .row
             .col-md-3(ng-repeat="trip in trips")
                 .trip-card(ng-click="showTripDetail(trip)")
                     .trip-cover(style="background-image: url({{ trip.imageUrl }});")
+trip-detail-modal(ng-show="detailsIsShown.val")

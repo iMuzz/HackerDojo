@@ -6,11 +6,33 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
-				description: "Blemond Sanctuary Lodge",
-				price: "500"
-			},
+			lodges: [
+				{
+					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
+					description: "Blemond Sanctuary Lodge",
+					price: "500"
+				},
+				{
+					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
+					description: "Blemond Sanctuary Lodge",
+					price: "500"
+				},
+				{
+					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
+					description: "Blemond Sanctuary Lodge",
+					price: "500"
+				},
+				{
+					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
+					description: "Blemond Sanctuary Lodge",
+					price: "500"
+				},
+				{
+					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
+					description: "Blemond Sanctuary Lodge",
+					price: "500"
+				},
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),
@@ -23,11 +45,13 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "Enjoy a relaxing stay in the Maldives",
 			totalPrice: "1500",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "http://cdni.condenast.co.uk/646x430/a_c/ayada_cnt_25aug11_pr.jpg",
-				description: "Maldives Beach Lodge",
-				price: "300"
-			},
+			lodges: [
+				{
+					imageUrl: "http://cdni.condenast.co.uk/646x430/a_c/ayada_cnt_25aug11_pr.jpg",
+					description: "Maldives Beach Lodge",
+					price: "300"
+				}
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),
@@ -40,11 +64,13 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "Experience the excitement of New York",
 			totalPrice: "3000",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "http://www.famousnychotels.com/bpcms/ImageUpload/hotelphotos/warwickny.jpg",
-				description: "Warwick Hotel",
-				price: "1000"
-			},
+			lodges: [
+				{
+					imageUrl: "http://www.famousnychotels.com/bpcms/ImageUpload/hotelphotos/warwickny.jpg",
+					description: "Warwick Hotel",
+					price: "1000"
+				}
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),
@@ -57,11 +83,13 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "Find love in the most beutiful city in the world",
 			totalPrice: "1200",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "http://www.socketsite.com/wp-content/uploads/2014/03/Hotel-Mirabelle.jpg",
-				description: "Hotel Mirabelle",
-				price: "600"
-			},
+			lodges: [
+				{
+					imageUrl: "http://www.socketsite.com/wp-content/uploads/2014/03/Hotel-Mirabelle.jpg",
+					description: "Hotel Mirabelle",
+					price: "600"
+				}
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),
@@ -74,11 +102,13 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "Come experience this burgeoning center of world culture",
 			totalPrice: "500",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "",
-				description: "",
-				price: "400"
-			},
+			lodges: [
+				{
+					imageUrl: "",
+					description: "",
+					price: "400"
+				}
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),
@@ -91,11 +121,13 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "Come for fun in the sun!",
 			totalPrice: "1700",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "http://a57.foxnews.com/global.fncstatic.com/static/managed/img/U.S./876/493/aqua_hotel_hawaii.jpg",
-				description: "Hawaii Resort",
-				price: "700"
-			},
+			lodges: [
+				{
+					imageUrl: "http://a57.foxnews.com/global.fncstatic.com/static/managed/img/U.S./876/493/aqua_hotel_hawaii.jpg",
+					description: "Hawaii Resort",
+					price: "700"
+				}
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),
@@ -108,11 +140,13 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "A beautiful getaway in the exotic country of Japan",
 			totalPrice: "3000",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "http://insidekyoto.smugmug.com/Kyoto-Hotels/The-Gion-House/i-WXBXWht/0/M/gion-house-3-M.jpg",
-				description: "Ryokan Inn",
-				price: "200"
-			},
+			lodges: [
+				{
+					imageUrl: "http://insidekyoto.smugmug.com/Kyoto-Hotels/The-Gion-House/i-WXBXWht/0/M/gion-house-3-M.jpg",
+					description: "Ryokan Inn",
+					price: "200"
+				}
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),
@@ -125,11 +159,13 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			description: "Party with the stars in the City of Angels",
 			totalPrice: "1000",
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
-			lodge: {
-				imageUrl: "http://assets.sheratonlax.com/XLGallery/md/she344ex22426.jpg",
-				description: "Sheraton Los Angeles",
-				price: "400"
-			},
+			lodges: [
+				{
+					imageUrl: "http://assets.sheratonlax.com/XLGallery/md/she344ex22426.jpg",
+					description: "Sheraton Los Angeles",
+					price: "400"
+				}
+			],
 			flight: {
 				departureDate: new Date(),
 				arrivalDate: new Date(),

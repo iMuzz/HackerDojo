@@ -4,7 +4,8 @@ angular.module('emiratesProjectApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'daterangepicker',
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider

@@ -8,26 +8,31 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
 			lodges: [
 				{
+					title: "Ocean view apartment",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500"
 				},
 				{
+					title: "Ocean view apartment",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500"
 				},
 				{
+					title: "Ocean view apartment",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500"
 				},
 				{
+					title: "Ocean view apartment",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500"
 				},
 				{
+					title: "Ocean view apartment",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500"

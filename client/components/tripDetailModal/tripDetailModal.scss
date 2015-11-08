@@ -30,19 +30,27 @@
     height: 127px;
     background-size: 91px 127px;
     z-index: 9;
+.flex-left {
+    flex: 5;
+    height: 100%;
+}
+.flex-right {
+    flex: 3;
+    height: 100%;
 }
 
 .golden-flex {
 	display: flex;
-	height: 100%;
-    .flex-left {
-        flex: 5;
-        height: 100%;
-    }
-    .flex-right {
-        flex: 3;
-        height: 100%;
-    }
+	height: 90%;
+}
+
+.result-bar {
+	height: 10%;
+	background-color: lightgray;
+	display: flex;
+	button {
+		width: 100px;
+	}
 }
 
 .trip-detail-modal {

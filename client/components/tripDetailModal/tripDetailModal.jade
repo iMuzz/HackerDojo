@@ -4,4 +4,16 @@ div#myModal
 			map-view
 		.flex-right
 			span.icon-close(ng-click="close()")
-			lodge-selector(lodges="chosenTrip.lodges")
+			lodge-selector(ng-show="view2" lodges="chosenTrip.lodges")
+			flight-details(ng-show="view1" flights = "chosenTrip.roundtripFlight")
+	.result-bar
+		.flex-left
+			div.total-price Some stuff here
+				span.flight $1200
+				span.plus +
+				span.housing $600
+				span.equals =
+				span.total $1800
+		.flex-right
+			button(ng-click="previousView()") Back	
+			button(ng-click="nextView()") Next

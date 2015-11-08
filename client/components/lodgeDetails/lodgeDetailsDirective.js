@@ -3,7 +3,8 @@ angular.module('emiratesProjectApp').directive('lodgeDetails', function(){
 		restrict: 'E',
 		templateUrl: "components/lodgeDetails/lodgeDetails.html",
 		scope: {
-			lodge: "="
+			lodge: "=",
+			close: "&close"
 		}
 	}
 });

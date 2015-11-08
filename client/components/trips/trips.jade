@@ -1,27 +1,7 @@
-#trips
+div#trips
     .container
         .row
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/dubai.jpg');")
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/france.jpg');")
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/tahoe.jpeg');")
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/dubai.jpg');")
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/tahoe.jpeg');")
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/france.jpg');")
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/tahoe.jpeg');")
-            .col-md-3
-                .trip-card
-                    .trip-cover(style="background-image: url('/assets/images/france.jpg');")
+            .col-md-3(ng-repeat="trip in trips")
+                .trip-card(ng-click="showTripDetail(trip)")
+                    .trip-cover(style="background-image: url({{ trip.imageUrl }});")
+trip-detail-modal(ng-show="detailsIsShown.val")

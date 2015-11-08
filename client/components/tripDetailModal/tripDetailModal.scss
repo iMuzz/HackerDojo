@@ -1,22 +1,44 @@
 $modalPlatformColor: black;
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
 
-#myModalPlatform {
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+div#myModal {
+	border: 1px solid black;
+	background-color: white;
+	z-index: 3;
 	position: absolute;
-	z-index: 2;
-	top: 0px;
+	padding: 50px;
+	left: 20%;
+    right: 20%;
 
-	/*Temporary*/
-	width: 100vw;
-	height: 100vh;
-	background-color: $modalPlatformColor;
-	opacity: .5;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	.modalContent {
-		height: 400px;
-		width: 600px;
-		background-color: red;
+	.icon-close {
+		position: absolute;
+		right: 5px;
+		top: 5px;
+		&:hover {
+			cursor: pointer;
+		}
 	}
+
+/*	&:before {
+		position: fixed;
+		content: "";
+		width: 100vw;
+		height: 100vh;
+		background-color: black;
+		top: 0px;
+		z-index: 2;
+		opacity: .5;
+	}*/
 }

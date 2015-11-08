@@ -5,7 +5,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Peru",
 			description: "A beautiful getaway in the exotic country of Peru",
 			totalPrice: "2000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodges: [
 				{
 					title: "Ocean view apartment",
@@ -49,7 +49,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Maldives",
 			description: "Enjoy a relaxing stay in the Maldives",
 			totalPrice: "1500",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/france.jpg",
 			lodges: [
 				{
 					imageUrl: "http://cdni.condenast.co.uk/646x430/a_c/ayada_cnt_25aug11_pr.jpg",
@@ -68,7 +68,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "New York City",
 			description: "Experience the excitement of New York",
 			totalPrice: "3000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/tahoe.jpeg",
 			lodges: [
 				{
 					imageUrl: "http://www.famousnychotels.com/bpcms/ImageUpload/hotelphotos/warwickny.jpg",
@@ -87,7 +87,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "San Francisco",
 			description: "Find love in the most beutiful city in the world",
 			totalPrice: "1200",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodges: [
 				{
 					imageUrl: "http://www.socketsite.com/wp-content/uploads/2014/03/Hotel-Mirabelle.jpg",
@@ -106,7 +106,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Berlin",
 			description: "Come experience this burgeoning center of world culture",
 			totalPrice: "500",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodges: [
 				{
 					imageUrl: "",
@@ -125,7 +125,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Hawaii",
 			description: "Come for fun in the sun!",
 			totalPrice: "1700",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodges: [
 				{
 					imageUrl: "http://a57.foxnews.com/global.fncstatic.com/static/managed/img/U.S./876/493/aqua_hotel_hawaii.jpg",
@@ -144,7 +144,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Japan",
 			description: "A beautiful getaway in the exotic country of Japan",
 			totalPrice: "3000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodges: [
 				{
 					imageUrl: "http://insidekyoto.smugmug.com/Kyoto-Hotels/The-Gion-House/i-WXBXWht/0/M/gion-house-3-M.jpg",
@@ -163,7 +163,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "Los Angeles",
 			description: "Party with the stars in the City of Angels",
 			totalPrice: "1000",
-			imageUrl: "http://cdni.condenast.co.uk/646x430/o_r/peru_cnt_9nov09_istock_b.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodges: [
 				{
 					imageUrl: "http://assets.sheratonlax.com/XLGallery/md/she344ex22426.jpg",

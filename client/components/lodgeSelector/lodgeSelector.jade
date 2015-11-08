@@ -1,4 +1,22 @@
 div.lodgeSelection
-	ul Lodges
-		li.lodge-item(ng-repeat="lodge in lodges" ng-click="viewLodge(lodge)") {{ lodge.title }}
+    ul
+        li.lodge-item(ng-repeat="lodge in lodges" ng-click="viewLodge(lodge)")
+            span.host 
+                img(ng-src="{{lodge.hostImg}}")
+            span.title {{ lodge.title }}
+            span.price ${{ lodge.price }}
+            span.rating
+                .star-rating
+                  .foreground
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star-half
+                  .background
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
 lodge-details(lodge="selectedLodge")

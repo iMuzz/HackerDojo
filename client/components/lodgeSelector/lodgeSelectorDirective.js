@@ -6,17 +6,13 @@ angular.module('emiratesProjectApp').directive('lodgeSelector', function(){
 			lodges: "="
 		},
 		link: function(scope, el, attrs) {
-			scope.detailsIsShown = false;
 			// 
+			scope.selectedLodge = {};
+			
 			scope.viewLodge = function(lodge){
 				console.log("viewLodge called: ", lodge);
-				scope.detailsIsShown = true;
+				scope.selectedLodge = lodge;
 			};
-
-			scope.close = function(){
-				console.log("CLOSE THE DETAILS!");
-				scope.detailsIsShown = false;
-			}
 		}
 	}
 });

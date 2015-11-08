@@ -1,4 +1,4 @@
-lodge-details(ng-show="detailsIsShown" lodge="lodge" close="close()")
 div.lodgeSelection
 	ul Lodges
 		li.lodge-item(ng-repeat="lodge in lodges" ng-click="viewLodge(lodge)") {{ lodge.title }}
+lodge-details(lodge="selectedLodge")

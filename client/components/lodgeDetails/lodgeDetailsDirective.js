@@ -1,10 +1,12 @@
 angular.module('emiratesProjectApp').directive('lodgeDetails', function(){
 	return {
 		restrict: 'E',
-		templateUrl: "components/lodgeDetails/lodgeDetails.html",
 		scope: {
-			lodge: "=",
-			close: "&close"
+			lodge: "="		
+		},
+		templateUrl: "components/lodgeDetails/lodgeDetails.html",
+		link: function(scope){
+			console.log("inside lodge details:", scope.lodge);
 		}
 	}
 });

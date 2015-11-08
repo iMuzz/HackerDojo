@@ -43,14 +43,14 @@ angular.module('emiratesProjectApp')
     $scope.nextView = function(){
       if ($scope.view1) {
         $scope.toggleView();
-        $scope.headerText = "Select your flight";
-      };
+        $scope.headerText = "Select your stay";
+      }
     };
 
     $scope.previousView = function(){
       if ($scope.view2) {
         $scope.toggleView();
-        $scope.headerText = "Select your stay";
+        $scope.headerText = "Select your flight";
       };
     };
 

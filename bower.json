@@ -14,7 +14,8 @@
     "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
     "simple-line-icons": "~2.2.3",
-    "angular-daterangepicker": "~0.2.0"
+    "angular-daterangepicker": "~0.2.0",
+    "ng-backstretch": "~0.1.2-beta"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",

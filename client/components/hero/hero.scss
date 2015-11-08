@@ -15,7 +15,7 @@ header.hero-wrap {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	transition: 0.4s all ease;
+	transition: 0.5s all ease-out;
 	overflow: hidden;
 	position: relative;
 	background-color: #140F12;
@@ -31,10 +31,6 @@ header.hero-wrap {
 		.backstretch img {
 		    transition: 0.4s -webkit-filter ease-in;
 		    opacity: 0.58 !important;
-		    -webkit-transform:scale(1);
-		    -webkit-animation: image .9s linear;
-		    -webkit-animation-delay: .3s;
-		    -webkit-animation-fill-mode:both; 
 	    }
 	}
 

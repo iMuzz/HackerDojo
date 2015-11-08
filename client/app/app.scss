@@ -8,9 +8,11 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 // Component styles are injected through grunt
 // injector
 @import 'app-styles/1-variables.scss';
+@import 'app-styles/airglyphs.scss';
 @import 'app-styles/button.scss';
 @import 'main/main.scss';
 @import 'hero/hero.scss';
+@import 'lodgeDetails/lodgeDetails.scss';
 @import 'lodgeSelector/lodgeSelector.scss';
 @import 'mapView/mapView.scss';
 @import 'tripDetailModal/tripDetailModal.scss';

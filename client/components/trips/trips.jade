@@ -4,4 +4,5 @@ div#trips
             .col-md-3(ng-repeat="trip in trips")
                 .trip-card(ng-click="showTripDetail(trip)")
                     .trip-cover(style="background-image: url({{ trip.imageUrl }});")
+                    .trip-location {{trip.location}}
 trip-detail-modal.trip-detail-modal(ng-show="detailsIsShown.val")

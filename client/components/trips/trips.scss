@@ -15,7 +15,7 @@ main.trips-wrap {
     align-items: center;
 
 	.trip-card {
-		background-color: #aaa;
+		background-color: #140F12;
 		border-radius: 3px;
 		border: 1px solid #D8D8D8;
 		overflow: hidden;
@@ -23,12 +23,24 @@ main.trips-wrap {
 		margin-bottom: 34px;
 		transition: border-color 0.2s linear;
 		height: 141px;
+		display: flex;
+		align-items: center;
 		.trip-cover {
 			height: 100%;
 			background-size: cover;
 			background-position: center;
+			opacity: 0.69;
+			position: absolute;
+			width: 100%;
+			transition: .4s opacity ease-in-out;
+			&:hover {
+				opacity: .89;
+			}
+		}
+		.trip-location {
+			margin: auto;
+			color: #fff;
 			position: relative;
-			opacity: 0.8;
 		}
 	}
 }

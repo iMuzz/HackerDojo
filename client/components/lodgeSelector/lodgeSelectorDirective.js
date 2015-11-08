@@ -6,9 +6,7 @@ angular.module('emiratesProjectApp').directive('lodgeSelector', function(){
 			lodges: "="
 		},
 		link: function(scope, el, attrs) {
-			// 
-			scope.selectedLodge = {};
-			
+
 			scope.viewLodge = function(lodge){
 				console.log("viewLodge called: ", lodge);
 				scope.selectedLodge = lodge;

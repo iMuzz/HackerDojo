@@ -2,6 +2,59 @@
 	height: 100%;
 	padding: 0px;
 }
-.lodgeSelection {
-	height: 50%;
+lodge-selector {
+	display: block;
+	height: 100%;
+	.lodgeSelection {
+		height: 50%;
+		ul {
+			padding: 0 20px;
+			list-style: none;
+			overflow-y: scroll;
+			height: 100%;
+			li {
+				cursor: pointer;
+				padding: 20px 40px 20px 20px;
+				border-top: 1px solid #dce0e0;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				&:first-child {
+					border-top: 0;
+				}
+				.host {
+					margin-right: 5px;
+					img {
+						height: 40px;
+						border-radius: 100em;
+					}
+				}
+				.title {
+					font-size: 16px;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}
+
+.star-rating {
+    position: relative;
+    .airicon-star:before {
+        content: '\f1d4';
+    }
+    .foreground {
+        position: absolute;
+    }
+    .airicon {
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        &.airicon-beach {
+		    color: #ffb400;
+		}
+    }
+    .airicon-light-gray {
+        color: #cacccd;
+    }
 }

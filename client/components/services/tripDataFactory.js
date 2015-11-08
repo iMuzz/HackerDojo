@@ -9,6 +9,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			lodges: [
 				{
 					title: "Ocean view apartment",
+					hostImg: "./assets/images/avatar/1.jpg",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500",
@@ -16,6 +17,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 				},
 				{
 					title: "Ocean view apartment",
+					hostImg: "./assets/images/avatar/2.jpg",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500",
@@ -23,6 +25,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 				},
 				{
 					title: "Ocean view apartment",
+					hostImg: "./assets/images/avatar/3.jpg",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500",
@@ -30,6 +33,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 				},
 				{
 					title: "Ocean view apartment",
+					hostImg: "./assets/images/avatar/4.jpg",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500",
@@ -37,6 +41,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 				},
 				{
 					title: "Ocean view apartment",
+					hostImg: "./assets/images/avatar/1.jpg",
 					imageUrl: "http://media-cdn.tripadvisor.com/media/photo-o/08/27/95/9a/belmond-sanctuary-lodge.jpg",
 					description: "Blemond Sanctuary Lodge",
 					price: "500",

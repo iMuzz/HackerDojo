@@ -1,4 +1,24 @@
 div.lodge-details
-	h1 {{ lodge.title }}
-	img(ng-src="{{lodge.imageUrl}}")
-	p {{ lodge.description }}
+    .image-effect(style="background-image: url({{lodge.imageUrl}})")
+    .meta-section
+        div.lodge-image(style="background-image: url({{lodge.imageUrl}})")
+        .lodge-status
+            h4 {{ lodge.title }}
+            p {{ lodge.description }}
+            span.rating
+                .star-rating
+                  .foreground
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star
+                    i.airicon.airicon-beach.airicon-star-half
+                  .background
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
+                    i.airicon.airicon-star.airicon-light-gray
+    .depth-section
+        h4 About this listing
+        p {{ lodge.about }}

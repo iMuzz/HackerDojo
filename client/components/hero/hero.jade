@@ -3,10 +3,14 @@ div.backstretch-wrapper(backstretch backstretch-images="'https://images.unsplash
 div.juice
     .juice-text 
         //- h1 Let your wallet do the traveling
-        h1 Discover the adventure within your pocket.
+        //- h1 Discover the adventure within your pocket.
+        h1 See where your wallet can take you
     .juice-form
         form(action="")
             i.icon-wallet
             input.first(type="number" placeholder="Your Budget" aria-describedby="basic-addon1")
-            input(type="text" placeholder="Dates")
+            i.icon-calendar
+            input.second(type="text" placeholder="Start Date")
+            i.icon-calendar
+            input(type="text" placeholder="End Dates")
             button#find.button.button--branded(trigger-trip-view) Find Trip

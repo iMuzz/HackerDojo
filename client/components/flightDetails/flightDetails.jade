@@ -1,14 +1,11 @@
 div.ng-flight-details
-    div This should be a single roundtrip
-    div.outbound
-        div {{ roundtripFlight.outboundFlight.price }}
-        div {{ roundtripFlight.outboundFlight.startTime }}
-        div {{ roundtripFlight.outboundFlight.startLocation }}
-        div {{ roundtripFlight.outboundFlight.destination }}
-        div {{ roundtripFlight.outboundFlight.endTime }}
-    div.inbound
-        div {{ roundtripFlight.inboundFlight.price }}
-        div {{ roundtripFlight.inboundFlight.startTime }}
-        div {{ roundtripFlight.inboundFlight.startLocation }}
-        div {{ roundtripFlight.inboundFlight.destination }}
-        div {{ roundtripFlight.inboundFlight.endTime }}
+    .flight-row
+        .flight-logo(style="background-image: url(./assets/images/emirates-logo.png)")
+        .flight-outbound
+            .time {{ roundtripFlight.outboundFlight.startTime }} - {{ roundtripFlight.outboundFlight.endTime }}
+            .location {{ roundtripFlight.outboundFlight.startLocation }}
+        .flight-inbound
+        .flight-duration
+        .flight-price ${{ roundtripFlight.outboundFlight.price }}
+        .book-flight
+

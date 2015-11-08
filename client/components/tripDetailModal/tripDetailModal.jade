@@ -6,6 +6,9 @@ div#myModal
 			span.icon-close(ng-click="close()")
 			lodge-selector(ng-show="view2" lodges="chosenTrip.lodges")
 			flight-selector(ng-show="view1" roundtrip-flights="chosenTrip.roundtripFlights")
+			.button-nav-bar
+				button.button(ng-click="previousView()") Back	
+				button.button(ng-click="nextView()") Next
 	.result-bar
 		.flex-left
 			div.total-price Some stuff here
@@ -14,6 +17,3 @@ div#myModal
 				span.housing $600
 				span.equals =
 				span.total $1800
-		.flex-right
-			button(ng-click="previousView()") Back	
-			button(ng-click="nextView()") Next

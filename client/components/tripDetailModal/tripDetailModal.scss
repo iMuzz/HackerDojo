@@ -31,27 +31,31 @@
     background-size: 91px 127px;
     z-index: 9;
 }
-.flex-left {
-    flex: 5;
-    height: 100%;
-}
-.flex-right {
-    flex: 3;
-    height: 100%;
+
+flight-selector, lodge-selector {
+	display: block;
+	height: 92%;
 }
 
 .golden-flex {
 	display: flex;
-	height: 90%;
+	height: 100%;
+	.flex-left {
+	    flex: 5;
+	    height: 100%;
+	}
+	.flex-right {
+	    flex: 3;
+	    height: 100%;
+	}
 }
 
-.result-bar {
-	height: 10%;
-	background-color: lightgray;
+.button-nav-bar {
 	display: flex;
-	button {
-		width: 100px;
-	}
+	justify-content: space-between;
+	height: 8%;
+	align-items: center;
+	padding: 0 20px;	
 }
 
 .trip-detail-modal {

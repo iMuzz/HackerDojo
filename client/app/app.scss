@@ -11,6 +11,7 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 @import 'app-styles/airglyphs.scss';
 @import 'app-styles/button.scss';
 @import 'main/main.scss';
+@import 'flightDetails/flightDetails.scss';
 @import 'flightSelector/flightSelector.scss';
 @import 'hero/hero.scss';
 @import 'lodgeDetails/lodgeDetails.scss';
@@ -28,6 +29,12 @@ body {
 	font-family: "Gotham Rounded A", "Gotham Rounded B";
 	overflow: hidden;
 	height: 100%; 
+}
+
+@media (min-width: 1200px) {
+	.container {
+	    width: 1200px;
+	}
 }
 
 @keyframes blur { 

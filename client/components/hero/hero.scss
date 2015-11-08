@@ -1,0 +1,13 @@
+header.hero-wrap {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s height ease-in-out;
+	
+	/* Input tag wrapper*/
+	.trip-filter {
+		display: flex;
+	}
+
+}

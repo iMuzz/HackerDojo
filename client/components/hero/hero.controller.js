@@ -12,4 +12,19 @@ angular.module('emiratesProjectApp')
     $scope.isActive = function(route) {
       return route === $location.path();
     };
+
   });
+
+angular.module('emiratesProjectApp').directive('triggerTripView', function(){
+  return {
+    restrict: 'A',
+    link: function(scope, el, attrs){
+
+        el.click(function(event){
+          event.preventDefault();
+          console.log("added class open");
+          $(this).parents("body").addClass('open');
+        });
+    }
+  }
+});

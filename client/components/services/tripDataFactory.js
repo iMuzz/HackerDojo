@@ -5,7 +5,7 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			location: "dubai",
 			description: "",
 			totalPrice: "1515",
-			imageUrl: "https://images.trvl-media.com/media/content/shared/images/travelguides/destination/1079/Dubai-48863.jpg",
+			imageUrl: "./assets/images/dubai.jpg",
 			lodges: [
 				{
 					title: "Hotel Studio Apt. Burj Khalifa View",
@@ -302,10 +302,10 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 			]
 		},
 		{
-			location: "Dakha",
+			location: "Saudi Arabia",
 			description: "",
 			totalPrice: "1515",
-			imageUrl: "http://cdn.ek.aero/us/english/images/Dhaka_tcm272-2167677.jpg",
+			imageUrl: "http://static6.businessinsider.com/image/555d4d98eab8ea413179801c-840-524/mecca-hotel_3311887b.jpg",
 			lodges: [
 				{
 					title: "Bright Hotel Style room",
@@ -455,10 +455,10 @@ angular.module('emiratesProjectApp').factory('tripDataFactory', function(){
 
 		
 		{
-			location: "Los Angeles",
+			location: "Singapore",
 			description: "Party with the stars in the City of Angels",
 			totalPrice: "1000",
-			imageUrl: "./assets/images/dubai.jpg",
+			imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
 			lodges: [
 				{
 					imageUrl: "http://assets.sheratonlax.com/XLGallery/md/she344ex22426.jpg",

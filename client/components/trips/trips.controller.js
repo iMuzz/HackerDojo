@@ -44,6 +44,7 @@ angular.module('emiratesProjectApp')
       if ($scope.view1) {
         $scope.toggleView();
         $scope.headerText = "Select your stay";
+        $('.button-nav-bar .button:nth-child(2)').addClass('button--green').text("Checkout");
       }
     };
 
@@ -51,6 +52,7 @@ angular.module('emiratesProjectApp')
       if ($scope.view2) {
         $scope.toggleView();
         $scope.headerText = "Select your flight";
+        $('.button-nav-bar .button:nth-child(2)').removeClass('button--green').text("Next");
       };
     };
 

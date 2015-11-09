@@ -31,3 +31,11 @@
 		background-color: lighten($colorBrand, 10%);
 	}
 }
+
+.button--green {
+	background-color: $colorBrand;
+	color: #fff;
+	&:hover {
+		background-color: lighten($colorBrand, 10%);
+	}
+}

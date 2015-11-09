@@ -39,16 +39,17 @@ body {
 
 @keyframes blur { 
   0% { -webkit-filter: blur(0) }
-  100% { -webkit-filter: blur(7px) }
+  25% { -webkit-filter: blur(0) }
+  100% { -webkit-filter: blur(5px) }
 }
 
 .open {
 	header.hero-wrap {
 		height: $hero-shrink-val;
 		.backstretch-wrapper .backstretch img {
-			-webkit-animation: blur .2s linear;
-			-webkit-animation-delay: .25s; 
-			-webkit-animation-fill-mode:both;
+			//-webkit-animation: blur .2s linear;
+			//-webkit-animation-delay: .2s; 
+			//-webkit-animation-fill-mode:both;
 		}
 		.juice .juice-text h1 {
 		    margin-bottom: 0px;

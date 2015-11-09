@@ -1,4 +1,4 @@
 div.flightSelection
     ul
         li(ng-repeat="roundtripFlight in roundtripFlights" ng-click="viewFlight(roundtripFlight)")
-            flight-details(roundtrip-flight="selectedRoundtripFlight")
+            flight-details(roundtrip-flight="selectedRoundtripFlight" total-price="selectedRoundtripFlight.totalPrice")

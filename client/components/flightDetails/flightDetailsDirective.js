@@ -3,7 +3,8 @@ angular.module('emiratesProjectApp').directive('flightDetails', function(){
 		restrict: 'E',
 		templateUrl: "components/flightDetails/flightDetails.html",
 		scope: {
-			roundtripFlight: "="
+			roundtripFlight: "=",
+			totalPrice: "="
 		},
 		link: function(scope, el, attrs){
 
